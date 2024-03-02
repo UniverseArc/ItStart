@@ -1,0 +1,53 @@
+
+.chartWrapper{
+}
+
+.currencyAndGroupWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.currencyName{
+    padding-left: 13px;
+    font-size: large;
+    line-height: 150%;
+}
+
+.choiceGroup{
+    padding-right: 8px;
+}
+
+.chartAndAverageWrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.chartWrapper{
+    flex: 0 1 80%;
+}
+
+.averageWrapper{
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.averageText{
+    color: var(--average-text-color);
+}
+
+.averageNumber{
+    font-size: 53px;
+    line-height: 150%;
+    color: var(--average-sum-color)
+}
+
+.averageNumberRubSign{
+    color: var(--average-text-color);
+    font-size: 22px;
+}

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+	--primary-background: #F5F5F5;
+    --chart-background: white;
+    --average-text-color: #667985;
+    --average-sum-color: #F38B00;
+}
+
+body{
+    background-color: var(--primary-background);
+}
+
+.appWrapper {
+    background-color: var(--chart-background);
+    margin: 100px 50px;
+    border-radius: 10px;
+}
